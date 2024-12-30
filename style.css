@@ -1,17 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
     background-attachment: fixed;
     background-color: blue;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: medium;
     font-weight: 300;
+    color: aliceblue;
 }
  p {
     color: aliceblue;
     font-size: medium;
     font-weight: 200;
     text-align: center;
-    text-decoration: none;
     text-shadow:none;
     padding-top: 50px;
 
  }
+header nav ul li:not(.active):not(.btn) a:hover {
+    border-bottom: 5px solid black;
+}
+a {
+    text-decoration: none;
+}
